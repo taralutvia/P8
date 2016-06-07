@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   //menampilkan perpangkakatan
+
+   int i, angka, pangkat, hasil;
+
+   cout<<"Masukkan Angka : ";
+   cin>>angka;
+   cout<<"Masukkan Pangkat : ";
+   cin>>pangkat;
+
+   i=1;
+   hasil=1;
+   do
+    {
+       hasil=hasil*angka;
+       i++;
+   } while (i<=pangkat);
+   cout <<"Hasilnya : " <<hasil;
+    return 0;
+}
