@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    int i;
+
+    cout<<"Menampilkan deret bilangan genap"<<endl;
+    cout<<"Kurang dari atau sama dengan n"<<endl;
+    cout<<"Masukkan nilai n = ";
+    cin>>n;
+
+    i=n;
+    while (i>=0)
+    {
+        cout<<i<<" ";
+        i=i-2;
+
+    } return 0;
+}
